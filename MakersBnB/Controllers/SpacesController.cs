@@ -16,9 +16,10 @@ public class SpacesController : Controller
     public IActionResult Index()
     {
         using var dbContext = new MakersBnBDbContext();
-        var spaces = dbContext.Spaces.ToList();
+        var spaces = dbContext.Spaces?.ToList();
         return View(spaces); // passing directly as model
         //Alternative way to display:
+
     //     MakersBnBDbContext dbContext = new MakersBnBDbContext();
     //     List<Space> spaces = dbContext.Spaces.ToList();
 
@@ -47,7 +48,7 @@ public IActionResult Create(Space space)
 {   
   MakersBnBDbContext dbContext = new MakersBnBDbContext();
   // Here's where we finally use the dbContext
-  dbContext.Spaces.Add(space);
+  dbContext.Spaces?.Add(space);
   dbContext.SaveChanges();
 
   // redirect to "/Spaces"
