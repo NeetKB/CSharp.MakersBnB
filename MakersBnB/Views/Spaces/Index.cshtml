@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Spaces Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">View our Spaces</h1>
+
+    <h3>We have the following spaces available </h3>
+        @* @foreach (var space in ViewBag.Spaces)
+        {
+            <p>Description of the room: @space.Description</p>
+            <p>Owned By: @space.Name</p>
+            <p>Price per night: £@space.Price</p>
+            <p>*************************************************</p>
+        }     *@
+        @foreach (var space in Model)
+        {
+            <p>Description of the room: @space.Description</p>
+            <p>Owned By: @space.Name</p>
+            <p>Price per night: £@space.Price</p>
+            <p>*************************************************</p>
+        }  
+</div>

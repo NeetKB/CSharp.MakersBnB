@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@* the above is a Razor code block.
+It sets the view data dictionary title. 
+It passes data to from the view to the layout page *@
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<p title="information">Privacy policy details go here</p>
+
+<p>Today is @DateTime.Now</p>
+    <p>This time last week was: @(DateTime.Now - TimeSpan.FromDays(7))</p>
+
+@{
+    // declare the message variable
+    string message;
+
+    if(DateTime.IsLeapYear(DateTime.Now.Year)) {
+        // if this year is a leap year
+        message = "It's a leap year";
+    } else {
+        // if this year is not a leap year
+        message = "It's not a leap year";
+    }
+}
+
+    <p>@message</p>
+    <ol>
+@{
+    foreach(string name in ViewBag.Names) {
+        <li name="name">@name</li>
+    }
+}
+</ol>
