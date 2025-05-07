@@ -1,0 +1,4 @@
+# Ignore build outputs and Playwright binaries
+bin/
+obj/
+**/.playwright/
