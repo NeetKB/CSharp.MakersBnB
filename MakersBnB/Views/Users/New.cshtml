@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Registration Page";
+}
+
+<form action="/Users" method="post">
+  <fieldset>
+    <legend>Please fill in the details below to register:</legend>
+   
+    <div>
+      <label>Username:<input type="text" name="username" /></label>
+    </div>
+    <div>
+      <label>Email:<input type="email" name="email" /></label>
+    </div>
+     <div>
+      <label>Password:<input type="password" name="password" /></label>
+    </div>
+    <div>
+      <input type="submit" value="Submit and sign in" class="submit" />
+    </div>
+   
+  </fieldset>
+</form>

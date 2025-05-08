@@ -8,7 +8,9 @@ public class MakersBnBDbContext : DbContext
     internal DbSet<Space>? Spaces { get; set; }
     // DbSet<T> represents a collection of entities in a database (in this case, Space entities).
     // EF Core uses DbSet to perform CRUD operations on the corresponding database table.
-
+    
+    //Users is only public for testing purposes
+    public DbSet<User>? Users { get; set; }
     internal string? DbPath { get; }
 
     internal string dbName = "makersbnb_aspdotnet_dev";

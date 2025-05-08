@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Sign In Page";
+}
+
+<form action="/Sessions" method="post">
+  <fieldset>
+    <legend>Sign In:</legend>
+    <div>
+      <label>Email:<input type="email" name="email" /></label>
+
+    </div>
+     <div>
+      <label>Password:<input type="password" name="password" /></label>
+    </div>
+    <div>
+      <input type="submit" value="Submit and sign in" class="submit" />
+    </div> 
+    @{
+      string message = "";
+      if(ViewBag.LoginFailed == true && ViewBag.email == null){
+        message = "Cannot find email address provided. Please register your details first.";
+      }else if (ViewBag.LoginFailed == false){
+        message = " ";
+      }
+    } 
+    <p>@message</p>
+  </fieldset>
+</form>

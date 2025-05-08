@@ -1,13 +1,14 @@
 ﻿namespace MakersBnB.Tests;
 
 using System.Text.RegularExpressions;
+using MakersBnB.Models;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
 
 public class Tests : PageTest
 {
-    // the following method is a test
     [Test]
     public async Task IndexpageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage()
     {
@@ -61,4 +62,16 @@ public class Tests : PageTest
         await Expect(Page.GetByTitle("information")).ToHaveTextAsync("Privacy policy details go here");
     }
 
+
+    // [Test]
+    // public async Task UserSignsInSuccessfully(){
+    //     await Page.GotoAsync("http://localhost:5241/Users/New");
+
+    //     await Page.GetByLabel("Username:").FillAsync("Avnita");
+    //     await Page.GetByLabel("Email:").FillAsync("Avnita@test.com");
+    //     await Page.GetByLabel("Password:").FillAsync("Secret123!");
+    //     await Page.GetByRole(AriaRole.Button, new() { Name = "Submit and sign in" }).ClickAsync();
+
+    //     await Expect(Page).ToHaveURLAsync(new Regex(".*/Sessions/New"));
+    // } 
 }

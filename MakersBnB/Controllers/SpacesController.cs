@@ -1,5 +1,6 @@
 using MakersBnB.Models;
 using Microsoft.AspNetCore.Mvc;
+using MakersBnB.ActionFilters;
 
 namespace MakersBnB.Controllers;
 
@@ -13,6 +14,7 @@ public class SpacesController : Controller
     }
 
     // will handle `GET "/Spaces"`
+    [ServiceFilter(typeof(AuthenticationFilter))]
     public IActionResult Index()
     {
         using var dbContext = new MakersBnBDbContext();
@@ -33,7 +35,7 @@ public class SpacesController : Controller
 
     //     return View();
     }
-
+    [ServiceFilter(typeof(AuthenticationFilter))]
     public IActionResult New()
     {
         return View();
@@ -44,6 +46,7 @@ public class SpacesController : Controller
 // to differentiate from Index(), which handles 'GET "/spaces"'
 [Route("/Spaces")]
 [HttpPost]
+[ServiceFilter(typeof(AuthenticationFilter))]
 public IActionResult Create(Space space)
 {   
   MakersBnBDbContext dbContext = new MakersBnBDbContext();

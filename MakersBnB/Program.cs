@@ -3,6 +3,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// ** SESSION CONFIG **
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromSeconds(600);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+// ** AUTH FILTER CONFIG **
+builder.Services.AddScoped<MakersBnB.ActionFilters.AuthenticationFilter>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,5 +35,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+// ** SESSION CONFIG **
+app.UseSession();
 
 app.Run();
