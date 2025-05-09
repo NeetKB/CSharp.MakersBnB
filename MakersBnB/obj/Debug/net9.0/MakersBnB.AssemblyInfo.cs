@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MakersBnB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9af4a3c841fb3aaaf5a52d60965c24e8a32cef80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da91bb71b9dfef5b5eb785dc9f87c84799a44237")]
 [assembly: System.Reflection.AssemblyProductAttribute("MakersBnB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MakersBnB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,8 +19,6 @@
       string message = "";
       if(ViewBag.LoginFailed == true && ViewBag.email == null){
         message = "Cannot find email address provided. Please register your details first.";
-      }else if (ViewBag.LoginFailed == false){
-        message = " ";
       }
     } 
     <p>@message</p>

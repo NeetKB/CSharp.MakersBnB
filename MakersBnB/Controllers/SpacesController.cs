@@ -17,13 +17,15 @@ public class SpacesController : Controller
     [ServiceFilter(typeof(AuthenticationFilter))]
     public IActionResult Index()
     {
+        ViewBag.SignOutButton = true;
+        //Alternative way to display:
         using var dbContext = new MakersBnBDbContext();
         var spaces = dbContext.Spaces?.ToList();
         return View(spaces); // passing directly as model
-        //Alternative way to display:
+        
 
     //     MakersBnBDbContext dbContext = new MakersBnBDbContext();
-    //     List<Space> spaces = dbContext.Spaces.ToList();
+    //     List<Space>? spaces = dbContext?.Spaces?.ToList();
 
     //    foreach (var space in spaces)
     // {
@@ -31,13 +33,15 @@ public class SpacesController : Controller
        
     // };
 
-    // ViewBag.Spaces = spaces;
+    //     ViewBag.Spaces = spaces;
 
     //     return View();
     }
     [ServiceFilter(typeof(AuthenticationFilter))]
+    //Get Spaces/New page
     public IActionResult New()
     {
+        ViewBag.SignOutButton = true;
         return View();
     }
 
@@ -47,8 +51,10 @@ public class SpacesController : Controller
 [Route("/Spaces")]
 [HttpPost]
 [ServiceFilter(typeof(AuthenticationFilter))]
+//Post new spaces
 public IActionResult Create(Space space)
 {   
+    ViewBag.SignOutButton = true;
   MakersBnBDbContext dbContext = new MakersBnBDbContext();
   // Here's where we finally use the dbContext
   dbContext.Spaces?.Add(space);

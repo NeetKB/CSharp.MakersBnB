@@ -6,19 +6,30 @@
 It sets the view data dictionary title. 
 It passes data to from the view to the layout page *@
 
-<div class="text-center">
+<div class="text-center mb-5">
     @* <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
      *@
     <h2>Welcome to MakersBnB!</h2>
+</div>
 
-    <ul>
+<div class="text-center mx-auto mt-5 mb-5 card row h-100 justify-content-center align-items-center" style="width: 18rem;" >
+  <ul class="list-group list-group-flush">
     @{ 
         string[] names = new string[3] {"Great rooms", "Clean rooms and friendly landlord", "Would go back again"};
         foreach(string name in names) {
-        <li>@name</li>
+        <li class="list-group-item">@name</li>
         }
     }
-    </ul>
+    @* <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li> *@
+  </ul>
+</div>
+
+
+<div class="container text-center mt-5 d-flex justify-content-center">
+    <a class="nav-link text-dark col-sm" asp-area="" asp-controller="Sessions" asp-action="New">Sign In</a>
+    <a class="nav-link text-dark col-sm" asp-area="" asp-controller="Users" asp-action="New">Sign Up</a>
 
 </div>

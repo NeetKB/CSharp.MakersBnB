@@ -178,8 +178,6 @@
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/afwhg6bzuc-muycvpuwrr.gz
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/c9plxqq2yy-87fc7y1x7t.gz
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/wufbt03f9p-mlv21k5csn.gz
-/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-sf7jrmbnfz.gz
-/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-sf7jrmbnfz.gz
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/staticwebassets.build.json
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/staticwebassets.development.json
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -195,3 +193,6 @@
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/MakersBnB.pdb
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/MakersBnB.genruntimeconfig.cache
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/ref/MakersBnB.dll
+/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-fafdvnwc9p.gz
+/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-fafdvnwc9p.gz

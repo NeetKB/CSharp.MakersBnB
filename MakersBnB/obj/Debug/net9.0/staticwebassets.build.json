@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8XnSnvEi0GjAxrU5494UY8FqHoEHvF2ahCD0BBi1roM=",
+  "Hash": "QUdhN371/X25XXeoeqnh9Eq8lc8edzBoVQQP9AbRHZU=",
   "Source": "MakersBnB",
   "BasePath": "_content/MakersBnB",
   "Mode": "Default",
@@ -584,12 +584,12 @@
       "OriginalItemSpec": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-sf7jrmbnfz.gz",
+      "Identity": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-fafdvnwc9p.gz",
       "SourceId": "MakersBnB",
       "SourceType": "Computed",
       "ContentRoot": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MakersBnB",
-      "RelativePath": "MakersBnB#[.{fingerprint=sf7jrmbnfz}]?.styles.css.gz",
+      "RelativePath": "MakersBnB#[.{fingerprint=fafdvnwc9p}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -598,8 +598,8 @@
       "RelatedAsset": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/scopedcss/bundle/MakersBnB.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "caddj7a5vd",
-      "Integrity": "fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=",
+      "Fingerprint": "207m5d0w6r",
+      "Integrity": "8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/scopedcss/bundle/MakersBnB.styles.css"
@@ -1088,12 +1088,12 @@
       "OriginalItemSpec": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-sf7jrmbnfz.gz",
+      "Identity": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-fafdvnwc9p.gz",
       "SourceId": "MakersBnB",
       "SourceType": "Computed",
       "ContentRoot": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MakersBnB",
-      "RelativePath": "MakersBnB#[.{fingerprint=sf7jrmbnfz}]!.bundle.scp.css.gz",
+      "RelativePath": "MakersBnB#[.{fingerprint=fafdvnwc9p}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/scopedcss/projectbundle/MakersBnB.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "caddj7a5vd",
-      "Integrity": "fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=",
+      "Fingerprint": "207m5d0w6r",
+      "Integrity": "8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/scopedcss/projectbundle/MakersBnB.bundle.scp.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "sf7jrmbnfz",
-      "Integrity": "aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=",
+      "Fingerprint": "fafdvnwc9p",
+      "Integrity": "WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/scopedcss/bundle/MakersBnB.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "sf7jrmbnfz",
-      "Integrity": "aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=",
+      "Fingerprint": "fafdvnwc9p",
+      "Integrity": "WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/scopedcss/projectbundle/MakersBnB.bundle.scp.css"
@@ -21287,7 +21287,7 @@
     },
     {
       "Route": "MakersBnB.bundle.scp.css",
-      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-sf7jrmbnfz.gz",
+      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-fafdvnwc9p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -21306,11 +21306,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=\""
+          "Value": "\"8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21330,13 +21330,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=\""
+          "Value": "W/\"WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ="
+          "Value": "sha256-WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ="
         }
       ]
     },
@@ -21351,7 +21351,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1078"
+          "Value": "1079"
         },
         {
           "Name": "Content-Type",
@@ -21359,11 +21359,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=\""
+          "Value": "\"WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21373,13 +21373,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ="
+          "Value": "sha256-WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ="
         }
       ]
     },
     {
       "Route": "MakersBnB.bundle.scp.css.gz",
-      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-sf7jrmbnfz.gz",
+      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-fafdvnwc9p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21396,11 +21396,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=\""
+          "Value": "\"8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21418,13 +21418,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70="
+          "Value": "sha256-8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk="
         }
       ]
     },
     {
-      "Route": "MakersBnB.sf7jrmbnfz.bundle.scp.css",
-      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-sf7jrmbnfz.gz",
+      "Route": "MakersBnB.fafdvnwc9p.bundle.scp.css",
+      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-fafdvnwc9p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -21443,11 +21443,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=\""
+          "Value": "\"8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21467,13 +21467,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=\""
+          "Value": "W/\"WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sf7jrmbnfz"
+          "Value": "fafdvnwc9p"
         },
         {
           "Name": "label",
@@ -21481,12 +21481,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ="
+          "Value": "sha256-WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ="
         }
       ]
     },
     {
-      "Route": "MakersBnB.sf7jrmbnfz.bundle.scp.css",
+      "Route": "MakersBnB.fafdvnwc9p.bundle.scp.css",
       "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/scopedcss/projectbundle/MakersBnB.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21496,7 +21496,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1078"
+          "Value": "1079"
         },
         {
           "Name": "Content-Type",
@@ -21504,11 +21504,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=\""
+          "Value": "\"WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21518,7 +21518,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sf7jrmbnfz"
+          "Value": "fafdvnwc9p"
         },
         {
           "Name": "label",
@@ -21526,13 +21526,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ="
+          "Value": "sha256-WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ="
         }
       ]
     },
     {
-      "Route": "MakersBnB.sf7jrmbnfz.bundle.scp.css.gz",
-      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-sf7jrmbnfz.gz",
+      "Route": "MakersBnB.fafdvnwc9p.bundle.scp.css.gz",
+      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/t0v60qgsvg-fafdvnwc9p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21549,11 +21549,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=\""
+          "Value": "\"8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21571,7 +21571,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sf7jrmbnfz"
+          "Value": "fafdvnwc9p"
         },
         {
           "Name": "label",
@@ -21579,13 +21579,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70="
+          "Value": "sha256-8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk="
         }
       ]
     },
     {
-      "Route": "MakersBnB.sf7jrmbnfz.styles.css",
-      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-sf7jrmbnfz.gz",
+      "Route": "MakersBnB.fafdvnwc9p.styles.css",
+      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-fafdvnwc9p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -21604,11 +21604,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=\""
+          "Value": "\"8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21628,13 +21628,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=\""
+          "Value": "W/\"WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sf7jrmbnfz"
+          "Value": "fafdvnwc9p"
         },
         {
           "Name": "label",
@@ -21642,12 +21642,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ="
+          "Value": "sha256-WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ="
         }
       ]
     },
     {
-      "Route": "MakersBnB.sf7jrmbnfz.styles.css",
+      "Route": "MakersBnB.fafdvnwc9p.styles.css",
       "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/scopedcss/bundle/MakersBnB.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21657,7 +21657,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1078"
+          "Value": "1079"
         },
         {
           "Name": "Content-Type",
@@ -21665,11 +21665,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=\""
+          "Value": "\"WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21679,7 +21679,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sf7jrmbnfz"
+          "Value": "fafdvnwc9p"
         },
         {
           "Name": "label",
@@ -21687,13 +21687,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ="
+          "Value": "sha256-WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ="
         }
       ]
     },
     {
-      "Route": "MakersBnB.sf7jrmbnfz.styles.css.gz",
-      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-sf7jrmbnfz.gz",
+      "Route": "MakersBnB.fafdvnwc9p.styles.css.gz",
+      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-fafdvnwc9p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21710,11 +21710,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=\""
+          "Value": "\"8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21732,7 +21732,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sf7jrmbnfz"
+          "Value": "fafdvnwc9p"
         },
         {
           "Name": "label",
@@ -21740,13 +21740,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70="
+          "Value": "sha256-8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk="
         }
       ]
     },
     {
       "Route": "MakersBnB.styles.css",
-      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-sf7jrmbnfz.gz",
+      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-fafdvnwc9p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -21765,11 +21765,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=\""
+          "Value": "\"8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21789,13 +21789,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=\""
+          "Value": "W/\"WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ="
+          "Value": "sha256-WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ="
         }
       ]
     },
@@ -21810,7 +21810,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1078"
+          "Value": "1079"
         },
         {
           "Name": "Content-Type",
@@ -21818,11 +21818,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ=\""
+          "Value": "\"WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21832,13 +21832,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aC/0HrAd8ggM19XuTujryQRge3/1YVp/+KEfE3AS0jQ="
+          "Value": "sha256-WTaNFbaJkfG5wC/lMN87UhRHQKlwKv0ouIjFz8iJvQQ="
         }
       ]
     },
     {
       "Route": "MakersBnB.styles.css.gz",
-      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-sf7jrmbnfz.gz",
+      "AssetFile": "/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB/obj/Debug/net9.0/compressed/e7vx465fuc-fafdvnwc9p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21855,11 +21855,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70=\""
+          "Value": "\"8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:37:07 GMT"
+          "Value": "Fri, 09 May 2025 08:02:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21877,7 +21877,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fCzEFnkwJ67iRA3997w+AwP++MOJ/nSIaYVSryV1l70="
+          "Value": "sha256-8kWkcd6UeDtHzk9LyXt7I/HxTLXMVAoKKt83PvHtNTk="
         }
       ]
     }

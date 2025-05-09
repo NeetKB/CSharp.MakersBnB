@@ -470,3 +470,5 @@
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB.Tests/obj/Debug/net9.0/MakersBnB.Tests.genruntimeconfig.cache
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB.Tests/obj/Debug/net9.0/ref/MakersBnB.Tests.dll
 /Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB.Tests/bin/Debug/net9.0/Faker.Net.6.0.dll
+/Users/avnitabhandal/Desktop/Tutorials/makersbnb/MakersBnB.Tests/bin/Debug/net9.0/de-DE/Faker.Net.6.0.resources.dll

@@ -9,15 +9,44 @@
     <div>
       <label>Username:<input type="text" name="username" /></label>
     </div>
+    @{
+      string usernameMsg = "";
+      if(ViewBag.UsernameBlank == true){
+        usernameMsg = "You need to provide a valid username.";
+      }
+    }
+    <p>@usernameMsg</p>
     <div>
       <label>Email:<input type="email" name="email" /></label>
     </div>
+     @{
+      string emailMsg = "";
+      if(ViewBag.EmailBlank == true){
+        emailMsg = "You need to provide a valid email address.";
+      }
+    }
+    <p>@emailMsg</p>
      <div>
       <label>Password:<input type="password" name="password" /></label>
     </div>
+    @{
+      string pwdMsg = "";
+      if(ViewBag.PasswordBlank == true){
+        pwdMsg = "You need to provide a valid password. It must be longer than 8 characters, one number and have special characters.";
+      }
+    }
+    <p>@pwdMsg</p>
     <div>
       <input type="submit" value="Submit and sign in" class="submit" />
     </div>
+    @{
+      string message= "";
+      if(ViewBag.UsernameExists == true || ViewBag.EmailExists == true){
+        message = "Username  or Email already exists. Please choose a different username or email";
+      }
+
+    }
+    <p>@message</p>
    
   </fieldset>
 </form>

@@ -6,9 +6,10 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
-
+using Faker;
 public class Tests : PageTest
 {
+
     [Test]
     public async Task IndexpageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage()
     {
@@ -62,16 +63,32 @@ public class Tests : PageTest
         await Expect(Page.GetByTitle("information")).ToHaveTextAsync("Privacy policy details go here");
     }
 
+    [Test] // Check that Home page has sign in link
+    public async Task HomePageHasSignInButton()
+    {
+        await Page.GotoAsync("http://localhost:5241/");
+        
+        await Expect(Page.GetByRole(AriaRole.Link, new() { Name = "Sign In" })).ToBeVisibleAsync();
+    }
 
-    // [Test]
-    // public async Task UserSignsInSuccessfully(){
-    //     await Page.GotoAsync("http://localhost:5241/Users/New");
+    [Test] // Check that Home page has sign up link
+    public async Task HomePageHasSignUpButton()
+    {
+        await Page.GotoAsync("http://localhost:5241/");
+        
+        await Expect(Page.GetByRole(AriaRole.Link, new() { Name = "Sign Up" })).ToBeVisibleAsync();
+    }
 
-    //     await Page.GetByLabel("Username:").FillAsync("Avnita");
-    //     await Page.GetByLabel("Email:").FillAsync("Avnita@test.com");
-    //     await Page.GetByLabel("Password:").FillAsync("Secret123!");
-    //     await Page.GetByRole(AriaRole.Button, new() { Name = "Submit and sign in" }).ClickAsync();
+    [Test]//check that Sign out link is in Navbar if user signed in
+    public async Task SignOutLinkInNavBarIfSignedIn()
+    {
+         await Page.GotoAsync("http://localhost:5241/Sessions/New");
+        await Page.GetByLabel("Email:").FillAsync("lm@email.com");
+        await Page.GetByLabel("Password:").FillAsync("Larry123!");
+        await Page.GetByRole(AriaRole.Button).ClickAsync();
 
-    //     await Expect(Page).ToHaveURLAsync(new Regex(".*/Sessions/New"));
-    // } 
+        await Page.GotoAsync("http://localhost:5241/Spaces");
+        await Expect(Page.GetByRole(AriaRole.Button, new() { Name = "Sign Out" })).ToBeVisibleAsync();
+
+    }    
 }
