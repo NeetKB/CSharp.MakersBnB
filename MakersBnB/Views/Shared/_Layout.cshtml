@@ -25,17 +25,24 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>   
+                        <li class="nav-item"></li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Spaces" asp-action="Index">View Spaces</a>
+                        </li>    
+                        <li class="nav-item"></li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Spaces" asp-action="New">Add a new space</a>
                         </li>              
                         @{                    
                         if (ViewBag.SignOutButton == true)
                         {
                         <li class="nav-item">
-                        <form asp-controller="Sessions" asp-action="New" method="post">
+                        <form asp-controller="Sessions" asp-action="LogOut" method="post">
                             <button type="submit" class="nav-link btn btn-link text-dark">Sign Out</button>
                         </form>
                         </li>
                         }
-                        }    
+                        }
+                         
                     </ul>
                 </div>
             </div>

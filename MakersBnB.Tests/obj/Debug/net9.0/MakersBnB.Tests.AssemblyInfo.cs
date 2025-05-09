@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MakersBnB.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da91bb71b9dfef5b5eb785dc9f87c84799a44237")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f85fac74737bf1ad5765b748dc70dc3de6eba7e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MakersBnB.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MakersBnB.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,7 +11,7 @@ public class Space
   public string? Description {get; set;}
   public int? Price {get; set;}
   public int? Bedrooms {get; set;}
-  public string? rules {get;set;}
+  public string? Rules {get;set;}
 
   // the constructor
   public Space(string name, string description, int price, int bedrooms, string rules) {
@@ -19,7 +19,7 @@ public class Space
     this.Description = description;
     this.Price = price;
     this.Bedrooms =bedrooms;
-    this.rules = rules;
+    this.Rules = rules;
   }
 
   public Space(){}

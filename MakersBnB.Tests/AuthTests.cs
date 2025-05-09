@@ -35,6 +35,7 @@ public class AuthTests : PageTest
             dbContext.SaveChanges();
         }
     }
+    
     [Test]
     public async Task SigningInWithCorrectCredentials()
     {
@@ -68,6 +69,12 @@ public class AuthTests : PageTest
     [Test] // Check that if a username is already in the database - cannot sign in - error message given
     public async Task RegisteringWithUsernameThatsAlreadyInDb()
     {
+        await Page.GotoAsync("http://localhost:5241/Users/New");
+        await Page.GetByLabel("Username:").FillAsync("Avnita");
+        await Page.GetByLabel("Email:").FillAsync(email);
+        await Page.GetByLabel("Password:").FillAsync(password);
+        await Page.GetByRole(AriaRole.Button).ClickAsync();
+        
         await Page.GotoAsync("http://localhost:5241/Users/New");
         await Page.GetByLabel("Username:").FillAsync("Avnita");
         await Page.GetByLabel("Email:").FillAsync(email);

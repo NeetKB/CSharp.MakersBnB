@@ -5,7 +5,7 @@ public class MakersBnBDbContext : DbContext
 // DbContext is the base class that represents 
 // a session with the database and allows querying and saving data.
 {
-    internal DbSet<Space>? Spaces { get; set; }
+    public DbSet<Space>? Spaces { get; set; }
     // DbSet<T> represents a collection of entities in a database (in this case, Space entities).
     // EF Core uses DbSet to perform CRUD operations on the corresponding database table.
     

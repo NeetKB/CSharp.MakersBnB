@@ -37,7 +37,7 @@
     }
     <p>@pwdMsg</p>
     <div>
-      <input type="submit" value="Submit and sign in" class="submit" />
+      <input type="submit" value="Submit" class="submit" />
     </div>
     @{
       string message= "";
@@ -50,3 +50,7 @@
    
   </fieldset>
 </form>
+
+<div class="mt-5 d-flex ">
+    <a class="nav-link text-dark col-sm" asp-area="" asp-controller="Sessions" asp-action="New">Sign In</a>
+</div>

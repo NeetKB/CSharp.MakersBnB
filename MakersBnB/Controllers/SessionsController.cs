@@ -50,11 +50,12 @@ private readonly ILogger<SessionsController> _logger;
 
     }
 
-    [Route("/Sessions/LogOut")]
     [HttpPost]
-    public IActionResult Create()
+    public IActionResult LogOut()
     {
-    return View("/Sessions/New");   
+       // MakersBnBDbContext dbContext = new MakersBnBDbContext();
+        HttpContext.Session.Clear(); // ("user_id", user.ID);
+    return new RedirectResult("/Sessions/New");   
     }
 
 }

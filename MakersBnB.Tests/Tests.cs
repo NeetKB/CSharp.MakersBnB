@@ -1,12 +1,11 @@
 ﻿namespace MakersBnB.Tests;
 
 using System.Text.RegularExpressions;
-using MakersBnB.Models;
-using Microsoft.EntityFrameworkCore.Storage;
+
 using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
-using Faker;
+
 public class Tests : PageTest
 {
 

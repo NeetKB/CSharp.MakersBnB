@@ -13,7 +13,7 @@
       <label>Password:<input type="password" name="password" /></label>
     </div>
     <div>
-      <input type="submit" value="Submit and sign in" class="submit" />
+      <input type="submit" value="Submit" class="submit" />
     </div> 
     @{
       string message = "";
@@ -24,3 +24,7 @@
     <p>@message</p>
   </fieldset>
 </form>
+
+<div class=" mt-5 d-flex ">
+    <a class="nav-link text-dark col-sm" asp-area="" asp-controller="Users" asp-action="New">Sign Up</a>
+</div>

@@ -1,26 +1,33 @@
 @{
   ViewData["Title"] = "New Space Page";
 }
-<form action="/Spaces" method="post">
+<form action="/Spaces/New" method="post">
   <fieldset>
     <legend>List a space</legend>
     <div>
-      <label>Name <input type="text" name="name" /></label>
+      <label>Name: <input type="text" name="name"/></label>
     </div>
     <div>
-      <label>Description <input type="text" name="description" /></label>
+      <label>Description: <input type="text" name="description" /></label>
     </div>
     <div>
-      <label>Bedrooms <input type="text" name="bedrooms" /></label>
+      <label>Bedrooms: <input type="text" name="bedrooms" /></label>
     </div>
     <div>
-      <label>Price <input type="text" name="price" /></label>
+      <label>Price: <input type="text" name="price" /></label>
     </div>
     <div>
-      <label>Rules <input type="text" name="rules" /></label>
+      <label>Rules: <input type="text" name="rules" /></label>
     </div>
     <div>
       <input type="submit" value="Submit" class="submit" />
     </div>
+    @{
+      string message= "";
+      if(ViewBag.ShowError == true ){
+        message = "You need to provide a Name, Description, number of bedrooms and a price.";
+      }
+    }
+    <p>@message</p>
   </fieldset>
 </form>
